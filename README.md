@@ -14,7 +14,7 @@ You can check out the code [here](https://github.com/0xfabian/IntroductionToRobo
 
 # Homework 3
 
-This assignment involves simulating a 3-floor elevator control system  using LEDs, buttons, and a buzzer with Arduino.
+This assignment involves creating a 3-floor elevator control system with LEDs, buttons, and a buzzer using Arduino. The system uses LEDs to indicate the current floor and elevator's operational state, buttons to call the elevator, and a buzzer for sound cues during various scenarios. It also includes logic to handle button presses and debounce to prevent unintended repeats.
 
 You can check out the code [here](https://github.com/0xfabian/IntroductionToRobotics/blob/main/hw3/elevator.ino).
 
