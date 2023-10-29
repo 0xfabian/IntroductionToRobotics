@@ -2,18 +2,18 @@ const int floors = 3;
 
 const int floor_led[] = { 4, 3, 2 };
 
-const int floor_btn[] = { A0, A1, A2 };
+const int floor_btn[] = { 10, 9, 8 };
 bool btn_state[] = { true, true, true };
 unsigned long last_debounce[] = { 0, 0, 0 };
 
-const int buzzer = 6;
+const int buzzer = 11;
 const int press_freq = 440;
 const int press_duration = 100;
 const int cling_freq = 880;
 const int cling_duration = 200;
 const int move_freq = 220;
 
-const int move_led = 7;
+const int move_led = 12;
 int move_led_state = true;
 
 const unsigned long debounce_delay = 100;
