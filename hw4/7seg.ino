@@ -41,15 +41,15 @@ struct Joystick
 
 int pins[SEG_SIZE] = { 6, 7, 8, 4, 5, 2, 3, 9 };
 
-bool blinkState = false;
-int blinkDelay = 400;
-unsigned long lastBlink = 0;
-
 Joystick joystick(A0, A1, A2);
 unsigned long lastPress = 0;
 unsigned long timeToReset = 2000;
 int midPoint = 512;
 int safeZone = 200;
+
+bool blinkState = false;
+int blinkDelay = 400;
+unsigned long lastBlink = 0;
 
 unsigned char state;
 int pos;
@@ -113,12 +113,7 @@ void blink()
 void draw()
 {
   for(int i = 0; i < SEG_SIZE; i++)
-  {
-    if(i == pos)
-      digitalWrite(pins[pos], blinkState);
-    else
-      digitalWrite(pins[i], (state >> i) & 1);
-  }
+    digitalWrite(pins[pos], (i == pos) ? blinkState : ((state >> i) & 1));
 }
 
 void setup()
