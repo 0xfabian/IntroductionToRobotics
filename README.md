@@ -8,7 +8,7 @@ For this assignment, the task is to control each of the three colors of the LED 
 
 You can check out the code [here](https://github.com/0xfabian/IntroductionToRobotics/blob/main/hw2/rgb_led.ino).
 
-<img src="https://github.com/0xfabian/IntroductionToRobotics/blob/main/hw2/pic.jpg" width=50% height=50%>
+![pic](hw2/pic.jpg)
 
 [Click here to see the video!](https://youtu.be/uM623n7TpGw?si=PpcFdsfTmM-2AtKX)
 
