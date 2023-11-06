@@ -113,7 +113,7 @@ void blink()
 void draw()
 {
   for(int i = 0; i < SEG_SIZE; i++)
-    digitalWrite(pins[pos], (i == pos) ? blinkState : ((state >> i) & 1));
+    digitalWrite(pins[i], (i == pos) ? blinkState : ((state >> i) & 1));
 }
 
 void setup()
