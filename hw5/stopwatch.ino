@@ -105,7 +105,7 @@ void printTime(uint32_t time)
 
   for(int i = (displayCount - 1); i >= 0; i--)
   {
-    displayState[i] = (time > 0 || i >= (displayCount - 2)) ? encodings[time % 10] : 0;
+    displayState[i] = encodings[time % 10];
 
     time /= 10;
   }
