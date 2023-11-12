@@ -31,3 +31,13 @@ You can check out the code [here](https://github.com/0xfabian/IntroductionToRobo
 ![pic](hw4/pic.jpg)
 
 [Click here to see the video!](https://youtu.be/YJ4ITtAef10?si=XfXXjvnb1Jqge23t)
+
+# Homework 5
+
+This assignment involves creating a comprehensive project where a joystick is utilized to manipulate the position and state of a 7-segment display, allowing for seamless transitions between segments, toggling their states via button presses, and incorporating a reset functionality to clear the display and return to the initial position.
+
+You can check out the code [here](https://github.com/0xfabian/IntroductionToRobotics/blob/main/hw5/stopwatch.ino).
+
+![pic](hw5/pic.jpg)
+
+[Click here to see the video!](https://youtu.be/bcCKNkfMjKg?si=WSM4FGU8qV_DCaId)
