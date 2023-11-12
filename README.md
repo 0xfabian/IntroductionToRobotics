@@ -34,7 +34,7 @@ You can check out the code [here](https://github.com/0xfabian/IntroductionToRobo
 
 # Homework 5
 
-This assignment involves creating a comprehensive project where a joystick is utilized to manipulate the position and state of a 7-segment display, allowing for seamless transitions between segments, toggling their states via button presses, and incorporating a reset functionality to clear the display and return to the initial position.
+For this assignment, the task is to create a stopwatch timer using a 4-digit 7-segment display and three buttons. The stopwatch should count in 10ths of a second and include a lap-saving functionality similar to basic stopwatch functions on phones. The components required are a 7-segment display, three buttons, resistors, and wires. The initial display value should be "000.0", and the buttons should function as follows: Button 1 for start/pause, Button 2 for reset (when in pause mode) or reset saved laps (when in lap viewing mode), and Button 3 for saving laps (when in counting mode) and cycling through the last four saved laps.
 
 You can check out the code [here](https://github.com/0xfabian/IntroductionToRobotics/blob/main/hw5/stopwatch.ino).
 
