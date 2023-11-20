@@ -41,3 +41,13 @@ You can check out the code [here](https://github.com/0xfabian/IntroductionToRobo
 ![pic](hw5/pic.jpg)
 
 [Click here to see the video!](https://youtu.be/bcCKNkfMjKg?si=WSM4FGU8qV_DCaId)
+
+# Homework 6
+
+This assignment involves the creation of a "Smart Environment Monitor and Logger" using Arduino, which integrates various sensors to collect environmental data, logs this data into EEPROM, and provides visual feedback through an RGB LED, along with user interaction via a Serial Menu. The project entails submenus for configuring sensor settings, setting alert thresholds for the ultrasonic sensor and LDR, resetting logger data, checking system status, and controlling the RGB LED with manual color selection and automatic mode toggling. Emphasis should be placed on efficient EEPROM utilization, ensuring sensor calibration for accurate readings, and implementing error handling for Serial Communication.
+
+You can check out the code [here](https://github.com/0xfabian/IntroductionToRobotics/blob/main/hw6/seml.ino).
+
+![pic](hw6/pic.jpg)
+
+[Click here to see the video!](https://youtu.be/qQH7hyZsMkA?si=_5umL6UUSU2JAlbs)
