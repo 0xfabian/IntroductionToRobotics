@@ -358,9 +358,7 @@ void showData(const char* input)
   for(int i = start; i < globals.dataCount; i++)
   {
     EEPROM.get((i % dataSize) * sizeof(Data), data);
-
-    Serial.print((i % dataSize) * sizeof(Data));
-    Serial.print("  ");
+    
     Serial.print("Ultrasonic: ");
     Serial.print(data.ultrasonic);
     Serial.print("    LDR: ");
