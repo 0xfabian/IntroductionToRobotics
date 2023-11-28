@@ -51,3 +51,13 @@ You can check out the code [here](https://github.com/0xfabian/IntroductionToRobo
 ![pic](hw6/pic.jpg)
 
 [Click here to see the video!](https://youtu.be/qQH7hyZsMkA?si=_5umL6UUSU2JAlbs)
+
+# Homework 7
+
+This assignment involves creating a game on an 8x8 matrix with a player, fast-blinking bombs/bullets, and non-blinking walls. The goal is to generate walls on the map (50% - 75% of the map) and destroy them with the player. Required components include Arduino Uno, Joystick, 8x8 LED Matrix, MAX7219, resistors, capacitors, breadboard, and optional sensors/components. Inspiration is drawn from Bomberman and terminator-tanks. Key considerations include LED differentiating rates, smooth joystick control, and avoiding wall generation on top of the player at the game start. Emphasis is on maintaining clean code for efficient execution.
+
+You can check out the code [here](https://github.com/0xfabian/IntroductionToRobotics/blob/main/hw7/matrix.ino).
+
+![pic](hw7/pic.jpg)
+
+[Click here to see the video!](https://youtu.be/7bItrHzdkSE?si=uHvBtC4SQJxWpW_K)
